@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@swc-node/register": "^1.10.9",
+    "axios": "^1.7.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "start": "node -r @swc-node/register main.ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
