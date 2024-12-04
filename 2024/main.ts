@@ -23,8 +23,8 @@ const start = async () => {
   const isTestInput = process.argv.length > 3 && process.argv[3] === 'test';
   const input: string[] = await processInput(dayDigit, isTestInput);
   input.pop();
-  console.log(`Day ${dayDigit} Output: `);
-  day(input);
+  const output = day(input);
+  console.log(`Day ${dayDigit} Output: ${output}`);
 }
 
 start();
