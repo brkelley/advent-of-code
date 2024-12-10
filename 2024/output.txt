@@ -1,25 +1,5 @@
 
 > start
-> node -r @swc-node/register main.ts 5 test
+> node -r @swc-node/register main.ts 10 test
 
-{
-  order: {
-    '29': [ 13 ],
-    '47': [ 53, 13, 61, 29 ],
-    '53': [ 29, 13 ],
-    '61': [ 13, 53, 29 ],
-    '75': [ 29, 53, 47, 61, 13 ],
-    '97': [ 13, 61, 47, 29, 53, 75 ]
-  },
-  numStrings: [
-    [ 75, 47, 61, 53, 29 ],
-    [ 97, 61, 53, 29, 13 ],
-    [ 75, 29, 13 ],
-    [ 75, 97, 47, 61, 53 ],
-    [ 61, 13, 29 ],
-    [ 97, 13, 75, 29, 47 ]
-  ]
-}
-processing: [ 75, 97, 47, 61, 53 ]
-currently on  75
-currently on  97
+Day 10 Output: 36
