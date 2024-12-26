@@ -1,5 +1,131 @@
 
 > start
-> node -r @swc-node/register main.ts 10 test
+> node -r @swc-node/register main.ts 13 test
 
-Day 10 Output: 36
+round with b presses = 0
+a presses: 90
+total value of X: 8460
+round with b presses = 1
+a presses: 90
+total value of X: 8482
+round with b presses = 2
+a presses: 89
+total value of X: 8410
+round with b presses = 3
+a presses: 89
+total value of X: 8432
+round with b presses = 4
+a presses: 89
+total value of X: 8454
+round with b presses = 5
+a presses: 89
+total value of X: 8476
+round with b presses = 6
+a presses: 88
+total value of X: 8404
+round with b presses = 7
+a presses: 88
+total value of X: 8426
+round with b presses = 8
+a presses: 88
+total value of X: 8448
+round with b presses = 9
+a presses: 88
+total value of X: 8470
+round with b presses = 10
+a presses: 88
+total value of X: 8492
+round with b presses = 11
+a presses: 87
+total value of X: 8420
+round with b presses = 12
+a presses: 87
+total value of X: 8442
+round with b presses = 13
+a presses: 87
+total value of X: 8464
+round with b presses = 14
+a presses: 87
+total value of X: 8486
+round with b presses = 15
+a presses: 86
+total value of X: 8414
+round with b presses = 16
+a presses: 86
+total value of X: 8436
+round with b presses = 17
+a presses: 86
+total value of X: 8458
+round with b presses = 18
+a presses: 86
+total value of X: 8480
+round with b presses = 19
+a presses: 85
+total value of X: 8408
+round with b presses = 20
+a presses: 85
+total value of X: 8430
+round with b presses = 21
+a presses: 85
+total value of X: 8452
+round with b presses = 22
+a presses: 85
+total value of X: 8474
+round with b presses = 23
+a presses: 84
+total value of X: 8402
+round with b presses = 24
+a presses: 84
+total value of X: 8424
+round with b presses = 25
+a presses: 84
+total value of X: 8446
+round with b presses = 26
+a presses: 84
+total value of X: 8468
+round with b presses = 27
+a presses: 84
+total value of X: 8490
+round with b presses = 28
+a presses: 83
+total value of X: 8418
+round with b presses = 29
+a presses: 83
+total value of X: 8440
+round with b presses = 30
+a presses: 83
+total value of X: 8462
+round with b presses = 31
+a presses: 83
+total value of X: 8484
+round with b presses = 32
+a presses: 82
+total value of X: 8412
+round with b presses = 33
+a presses: 82
+total value of X: 8434
+round with b presses = 34
+a presses: 82
+total value of X: 8456
+round with b presses = 35
+a presses: 82
+total value of X: 8478
+round with b presses = 36
+a presses: 81
+total value of X: 8406
+round with b presses = 37
+a presses: 81
+total value of X: 8428
+round with b presses = 38
+a presses: 81
+total value of X: 8450
+round with b presses = 39
+a presses: 81
+total value of X: 8472
+round with b presses = 40
+a presses: 80
+total value of X: 8400
+CLOSE!! Y sum = 5400 (34 * 80 * 67 + 40)
+Button A: 80, Button B: 40
+{ buttonA: 80, buttonB: 40 }
+Day 13 Output: undefined

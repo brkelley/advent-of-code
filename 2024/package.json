@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@swc-node/register": "^1.10.9",
+    "@types/lodash": "^4.17.13",
     "axios": "^1.7.8",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
@@ -9,6 +10,7 @@
     "start": "node -r @swc-node/register main.ts"
   },
   "dependencies": {
-    "@types/node": "^22.10.1"
+    "@types/node": "^22.10.1",
+    "lodash": "^4.17.21"
   }
 }
