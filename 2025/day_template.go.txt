@@ -8,13 +8,13 @@ func init() {
 }
 
 // DayN solves day N
-func DayN(input []string) string {
+func DayN(lines []string) string {
 	fmt.Println("Running Day N solution")
 	
 	// TODO: Implement your solution here
 	// input is a slice of strings, one per line
 	
-	for i, line := range input {
+	for i, line := range lines {
 		if line == "" {
 			continue // Skip empty lines
 		}
