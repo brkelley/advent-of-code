@@ -1,3 +1,5 @@
 /2024/node_modules
 
 .vscode
+
+**/.env

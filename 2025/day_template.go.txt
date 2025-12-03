@@ -1,0 +1,26 @@
+package main
+
+import "fmt"
+
+// init registers this day's solution
+func init() {
+	RegisterDay("N", DayN) // Replace N with the day number
+}
+
+// DayN solves day N
+func DayN(input []string) string {
+	fmt.Println("Running Day N solution")
+	
+	// TODO: Implement your solution here
+	// input is a slice of strings, one per line
+	
+	for i, line := range input {
+		if line == "" {
+			continue // Skip empty lines
+		}
+		fmt.Printf("Line %d: %s\n", i+1, line)
+	}
+
+	return "123"
+}
+
