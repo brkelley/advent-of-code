@@ -15,9 +15,6 @@ func DayN(lines []string) string {
 	// input is a slice of strings, one per line
 	
 	for i, line := range lines {
-		if line == "" {
-			continue // Skip empty lines
-		}
 		fmt.Printf("Line %d: %s\n", i+1, line)
 	}
 
