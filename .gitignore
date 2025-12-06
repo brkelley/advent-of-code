@@ -3,3 +3,5 @@
 .vscode
 
 **/.env
+
+**/test-output.txt
