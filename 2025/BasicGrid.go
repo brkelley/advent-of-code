@@ -24,6 +24,17 @@ func (g BasicGrid) SetAt(row int, col int, value string) {
 	g.grid[row][col] = value
 }
 
+func (g BasicGrid) FindInGrid(value string) (Coord, bool) {
+	for row := 0; row < g.maxRows; row++ {
+		for col := 0; col < g.maxCols; col++ {
+			if g.GetAt(row, col) == value {
+				return Coord{row, col}, true
+			}
+		}
+	}
+	return Coord{}, false
+}
+
 func NewBasicGrid(lines []string) *BasicGrid {
 	maxRows := len(lines)
 	maxCols := len(lines[0])
@@ -39,6 +50,19 @@ func NewBasicGrid(lines []string) *BasicGrid {
 	}
 
 	return grid
+}
+
+func (g BasicGrid) PrintWithOverrides(overrides map[Coord]string) {
+	for row := 0; row < g.maxRows; row++ {
+		for col := 0; col < g.maxCols; col++ {
+			if val, ok := overrides[Coord{row, col}]; ok {
+				fmt.Print(val)
+			} else {
+				fmt.Print(g.grid[row][col])
+			}
+		}
+		fmt.Println()
+	}
 }
 
 func (g BasicGrid) Print() {
